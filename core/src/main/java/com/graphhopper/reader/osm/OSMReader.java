@@ -362,6 +362,12 @@ public class OSMReader {
         IntsRef relationFlags = getRelFlagsMap(way.getId());
         EdgeIteratorState edge = baseGraph.edge(fromIndex, toIndex).setDistance(distance);
         osmParsers.handleWayTags(edge.getEdge(), edgeIntAccess, way, relationFlags);
+        
+        // add dummy here
+        StringEncodedValue dummyEnc = encodingManager.getEncodedValue(DummyOwner.KEY, StringEncodedValue.class);
+        edge.set(dummyEnc, "test_pizza_pasta");
+
+        
         Map<String, KValue> map = way.getTag("key_values", Collections.emptyMap());
         if (!map.isEmpty())
             edge.setKeyValues(map);

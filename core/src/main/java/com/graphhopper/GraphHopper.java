@@ -619,6 +619,11 @@ public class GraphHopper {
         restrictionVehicleTypesByProfile.entrySet().stream()
                 .filter(e -> !e.getValue().isEmpty())
                 .forEach(e -> emBuilder.addTurnCostEncodedValue(TurnRestriction.create(e.getKey())));
+        
+        // add test dummy
+        emBuilder.add(com.graphhopper.routing.DummyOwner.create());
+        // 
+ 
         return emBuilder.build();
     }
 
