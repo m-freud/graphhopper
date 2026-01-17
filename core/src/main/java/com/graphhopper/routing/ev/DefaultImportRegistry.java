@@ -25,7 +25,12 @@ import com.graphhopper.util.PMap;
 public class DefaultImportRegistry implements ImportRegistry {
     @Override
     public ImportUnit createImportUnit(String name) {
-        if (Roundabout.KEY.equals(name))
+        if (DummyOwner.KEY.equals(name))
+            return ImportUnit.create(name, props -> DummyOwner.create(),
+                    (lookup, props) -> new OSMDummyOwnerParser(
+                            lookup.getBooleanEncodedValue(DummyOwner.KEY))
+            );
+        else if (Roundabout.KEY.equals(name))
             return ImportUnit.create(name, props -> Roundabout.create(),
                     (lookup, props) -> new OSMRoundaboutParser(
                             lookup.getBooleanEncodedValue(Roundabout.KEY))

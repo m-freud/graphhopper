@@ -1,0 +1,315 @@
+{
+  "errors" : [ ],
+  "debugInfo" : "idLookup:0.003568292s; , algoInit:3087 μs, astarbi|beeline-routing:2 ms, path extraction: 139 μs, visited nodes sum: 96",
+  "best" : {
+    "errors" : [ ],
+    "description" : [ ],
+    "distance" : 4850.850883961089,
+    "ascend" : 0.0,
+    "descend" : 0.0,
+    "routeWeight" : 343.8707305380286,
+    "time" : 343871,
+    "debugInfo" : ", algoInit:3087 μs, astarbi|beeline-routing:2 ms, path extraction: 139 μs, visited nodes sum: 96",
+    "instructions" : [ {
+      "points" : {
+        "size" : 6,
+        "intervalString" : "[0, 6[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 0,
+      "name" : "Viale Salvador Allende",
+      "distance" : 259.7921874542156,
+      "time" : 14613,
+      "extraInfoJSON" : {
+        "heading" : 191.03
+      },
+      "length" : 6
+    }, {
+      "points" : {
+        "size" : 19,
+        "intervalString" : "[6, 25[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 6,
+      "name" : "Viale Salvador Allende",
+      "distance" : 659.104,
+      "time" : 37599,
+      "exitNumber" : 2,
+      "exited" : true,
+      "turnAngle" : -0.5958069205590384,
+      "extraInfoJSON" : {
+        "exit_number" : 2,
+        "exited" : true,
+        "turn_angle" : -0.6
+      },
+      "length" : 19
+    }, {
+      "points" : {
+        "size" : 16,
+        "intervalString" : "[25, 41[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 6,
+      "name" : "Viale Salvador Allende",
+      "distance" : 764.1089999999999,
+      "time" : 59798,
+      "exitNumber" : 2,
+      "exited" : true,
+      "turnAngle" : -4.0145112034726,
+      "extraInfoJSON" : {
+        "exit_number" : 2,
+        "exited" : true,
+        "turn_angle" : -4.01
+      },
+      "length" : 16
+    }, {
+      "points" : {
+        "size" : 23,
+        "intervalString" : "[41, 64[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 6,
+      "name" : "Viale Leonardo da Vinci",
+      "distance" : 1813.3770000000002,
+      "time" : 137282,
+      "exitNumber" : 1,
+      "exited" : true,
+      "turnAngle" : -2.052274778296944,
+      "extraInfoJSON" : {
+        "exit_number" : 1,
+        "exited" : true,
+        "turn_angle" : -2.05
+      },
+      "length" : 23
+    }, {
+      "points" : {
+        "size" : 15,
+        "intervalString" : "[64, 79[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : -3,
+      "name" : "Viale Leonardo da Vinci",
+      "distance" : 1354.4686965068731,
+      "time" : 94579,
+      "extraInfoJSON" : {
+        "street_ref" : "SS719"
+      },
+      "length" : 15
+    }, {
+      "points" : {
+        "size" : 1,
+        "intervalString" : "[79, 80[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 4,
+      "name" : "",
+      "distance" : 0.0,
+      "time" : 0,
+      "length" : 0,
+      "extraInfoJSON" : {
+        "last_heading" : 285.24130872792904
+      }
+    } ],
+    "waypointIndices" : [ 0, 79 ],
+    "numChanges" : 0,
+    "legs" : [ ],
+    "pointsOrder" : [ ],
+    "pathDetails" : {
+      "dummy_owner" : [ {
+        "value" : true,
+        "first" : 0,
+        "last" : 79,
+        "length" : 79
+      } ]
+    },
+    "fare" : null,
+    "impossible" : false,
+    "waypoints" : {
+      "dimension" : 2,
+      "3D" : false,
+      "empty" : false,
+      "immutable" : false
+    },
+    "points" : {
+      "dimension" : 2,
+      "3D" : false,
+      "empty" : false,
+      "immutable" : true
+    }
+  },
+  "hints" : {
+    "empty" : false
+  },
+  "all" : [ {
+    "errors" : [ ],
+    "description" : [ ],
+    "distance" : 4850.850883961089,
+    "ascend" : 0.0,
+    "descend" : 0.0,
+    "routeWeight" : 343.8707305380286,
+    "time" : 343871,
+    "debugInfo" : ", algoInit:3087 μs, astarbi|beeline-routing:2 ms, path extraction: 139 μs, visited nodes sum: 96",
+    "instructions" : [ {
+      "points" : {
+        "size" : 6,
+        "intervalString" : "[0, 6[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 0,
+      "name" : "Viale Salvador Allende",
+      "distance" : 259.7921874542156,
+      "time" : 14613,
+      "extraInfoJSON" : {
+        "heading" : 191.03
+      },
+      "length" : 6
+    }, {
+      "points" : {
+        "size" : 19,
+        "intervalString" : "[6, 25[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 6,
+      "name" : "Viale Salvador Allende",
+      "distance" : 659.104,
+      "time" : 37599,
+      "exitNumber" : 2,
+      "exited" : true,
+      "turnAngle" : -0.5958069205590384,
+      "extraInfoJSON" : {
+        "exit_number" : 2,
+        "exited" : true,
+        "turn_angle" : -0.6
+      },
+      "length" : 19
+    }, {
+      "points" : {
+        "size" : 16,
+        "intervalString" : "[25, 41[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 6,
+      "name" : "Viale Salvador Allende",
+      "distance" : 764.1089999999999,
+      "time" : 59798,
+      "exitNumber" : 2,
+      "exited" : true,
+      "turnAngle" : -4.0145112034726,
+      "extraInfoJSON" : {
+        "exit_number" : 2,
+        "exited" : true,
+        "turn_angle" : -4.01
+      },
+      "length" : 16
+    }, {
+      "points" : {
+        "size" : 23,
+        "intervalString" : "[41, 64[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 6,
+      "name" : "Viale Leonardo da Vinci",
+      "distance" : 1813.3770000000002,
+      "time" : 137282,
+      "exitNumber" : 1,
+      "exited" : true,
+      "turnAngle" : -2.052274778296944,
+      "extraInfoJSON" : {
+        "exit_number" : 1,
+        "exited" : true,
+        "turn_angle" : -2.05
+      },
+      "length" : 23
+    }, {
+      "points" : {
+        "size" : 15,
+        "intervalString" : "[64, 79[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : -3,
+      "name" : "Viale Leonardo da Vinci",
+      "distance" : 1354.4686965068731,
+      "time" : 94579,
+      "extraInfoJSON" : {
+        "street_ref" : "SS719"
+      },
+      "length" : 15
+    }, {
+      "points" : {
+        "size" : 1,
+        "intervalString" : "[79, 80[",
+        "dimension" : 2,
+        "3D" : false,
+        "empty" : false,
+        "immutable" : true
+      },
+      "sign" : 4,
+      "name" : "",
+      "distance" : 0.0,
+      "time" : 0,
+      "length" : 0,
+      "extraInfoJSON" : {
+        "last_heading" : 285.24130872792904
+      }
+    } ],
+    "waypointIndices" : [ 0, 79 ],
+    "numChanges" : 0,
+    "legs" : [ ],
+    "pointsOrder" : [ ],
+    "pathDetails" : {
+      "dummy_owner" : [ {
+        "value" : true,
+        "first" : 0,
+        "last" : 79,
+        "length" : 79
+      } ]
+    },
+    "fare" : null,
+    "impossible" : false,
+    "waypoints" : {
+      "dimension" : 2,
+      "3D" : false,
+      "empty" : false,
+      "immutable" : false
+    },
+    "points" : {
+      "dimension" : 2,
+      "3D" : false,
+      "empty" : false,
+      "immutable" : true
+    }
+  } ]
+}

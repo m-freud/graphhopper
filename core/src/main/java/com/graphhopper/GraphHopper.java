@@ -871,6 +871,9 @@ public class GraphHopper {
         encodedValuesWithProps.putIfAbsent(VehicleAccess.key("car"), new PMap());
         encodedValuesWithProps.putIfAbsent(RoadClassLink.KEY, new PMap());
         encodedValuesWithProps.putIfAbsent(MaxSpeed.KEY, new PMap());
+        
+        // Add DummyOwner for testing custom encoded values
+        encodedValuesWithProps.putIfAbsent(DummyOwner.KEY, new PMap());
 
         Map<String, List<String>> restrictionVehicleTypesByProfile = getRestrictionVehicleTypesByProfile(profilesByName.values());
 
